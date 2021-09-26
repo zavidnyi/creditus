@@ -1,0 +1,47 @@
+.courseSearch {
+    margin-top: 10rem;
+    margin-bottom: 9rem;
+    margin-left: 5rem;
+    width: 98rem;
+    font-size: 2.4rem;
+    input {
+        width: 100%;
+        border: none;
+        font-family: "Bitter";
+        color: #000000;
+        border-bottom: $line;
+
+        &:focus{
+            border: none;
+            outline: none;
+            border-bottom: $line;
+        }
+    }
+    ::placeholder {
+        color: $input-grey;
+    }
+
+    .autocomplete {
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        div {
+            cursor: pointer;
+            margin-top: 3rem;
+            padding-bottom: 3rem;
+            display: flex;
+            border-bottom: $line;
+            transition: all .4s cubic-bezier(0.2, 0.6, 0.2, 1);
+            
+            .courseCode {
+                color: $code-color;
+                margin-left: 5rem;
+            }
+
+            &:hover {
+                padding-left: 3rem;
+                transition: all .4s cubic-bezier(0.2, 0.6, 0.2, 1);
+            }
+        }
+    }
+}

@@ -1,14 +1,26 @@
 .course-description {
-    margin-top: 2rem;
-    margin-left: 5rem;
     display: flex;
-    font-size: 1.8rem;
-    width: 60rem;
-    justify-content: space-between;
-    border-bottom: $line;
-    padding-bottom: 1rem;
+    align-items: center;
+    .text {
+        margin-top: 2rem;
+        margin-left: 5rem;
+        display: flex;
+        font-size: 2.4rem;
+        width: 98rem;
+        justify-content: space-between;
+        border-bottom: $line;
+        padding-bottom: 1rem;
+    }
 
     a {
         color: $code-color;
+    }
+
+    .delete {
+        cursor: pointer;
+        width: 2.3rem;
+        height: 2.3rem;
+        background: url("../images/delete.svg") no-repeat center;
+        background-size: cover;
     }
 }
