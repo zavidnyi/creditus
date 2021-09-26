@@ -1,0 +1,16 @@
+html {
+    font-size: calc(100vw / 1440 * 10);
+}
+
+body {
+    font-family: "Bitter", Helvetica, sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#root {
+    min-height: 100vh;
+}

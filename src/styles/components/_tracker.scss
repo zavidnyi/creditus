@@ -1,0 +1,23 @@
+.tracker {
+    h1 {
+        font-size: 3.6rem;
+        width: 16rem;
+    }
+
+    .counter {
+        display: flex;
+        align-items: center;
+        font-size: 4.8rem;
+        color: black;
+        font-family: "Bitter", Helvetica, sans-serif;
+    }
+}
+
+.tracker-group {
+    margin-left: 5rem;
+    margin-top: 8rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 98rem;
+}

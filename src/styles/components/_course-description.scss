@@ -1,0 +1,14 @@
+.course-description {
+    margin-top: 2rem;
+    margin-left: 5rem;
+    display: flex;
+    font-size: 1.8rem;
+    width: 60rem;
+    justify-content: space-between;
+    border-bottom: $line;
+    padding-bottom: 1rem;
+
+    a {
+        color: $code-color;
+    }
+}
