@@ -8,9 +8,9 @@ const CourseSearch = ({courses, addCourse}) => {
             setSearchResults([]);
             return
         }
-        const regExp = new RegExp(input)
+        const regExp = new RegExp(input.toLowerCase())
         setSearchResults(courses.filter((course)=>{
-            if (course.code.match(regExp) || course.name.match(regExp))
+            if (course.code.toLowerCase().match(regExp) || course.name.toLowerCase().match(regExp))
                 return course
         }))
     }
