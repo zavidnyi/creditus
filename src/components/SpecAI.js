@@ -41,25 +41,29 @@ const SpecAI = () => {
                     <div className="tracker-group">
                         <Tracker name="Required Courses:" currentValue={takenCourses.required} maxValue={requiredCourses.requiredNumber}/>
                         <Tracker name="Elective Group 1:" currentValue={takenCourses.eGroup[0]} maxValue={electiveGroup1.credits}/>
-                        <Tracker name="Elective Group 2:" currentValue={takenCourses.eGroup[0]} maxValue={electiveGroup2.credits}/>
-                        <Tracker name="Elective Group 3:" currentValue={takenCourses.eGroup[0]} maxValue={electiveGroup3.credits}/>
+                        <Tracker name="Elective Group 2:" currentValue={takenCourses.eGroup[1]} maxValue={electiveGroup2.credits}/>
+                        <Tracker name="Elective Group 3:" currentValue={takenCourses.eGroup[2]} maxValue={electiveGroup3.credits}/>
                     </div>
                     <CourseSelection
                         requiredCourses = {{
                             ...requiredCourses,
+                            name: "Required Course",
                             set: setRequiredCourses
                         }}
                         electiveGroups={[
                             {
                                 ...electiveGroup1,
+                                name: "Elective Group 1",
                                 set: setElectiveGroup1
                             },
                             {
                                 ...electiveGroup2,
+                                name: "Elective Group 2",
                                 set: setElectiveGroup2
                             },
                             {
                                 ...electiveGroup3,
+                                name: "Elective Group 3",
                                 set: setElectiveGroup3
                             },
                         ]}
