@@ -37,3 +37,23 @@
     margin-left: -103rem;
     transition: all .3s ease-in-out;
 }
+
+@media screen and (max-width: 780px) {
+    .course-description {
+        .text {
+            margin-left: 2rem;
+            font-size: 1.2rem;
+            width: 33rem;
+        }
+
+        .delete {
+            width: 2rem;
+            height: 2rem;
+            &:hover {
+                width: 2.5rem;
+                height: 2.5rem;
+                transition: all .3s cubic-bezier(0.2, 0.6, 0.2, 1);
+            }
+        }
+    }
+}

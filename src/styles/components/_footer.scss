@@ -55,3 +55,25 @@ footer {
         }
     }
 }
+
+@media screen and (max-width: 780px) {
+    footer {
+        button, .file-upload, p {
+            font-size: 1.2rem;
+            &:hover {
+                font-size: 1.2rem;
+                transition: none;
+            }
+        }
+
+        a {
+            font-size: 1.8rem;
+            margin-right: 2rem;
+
+            &:hover {
+                margin-right: 2rem;
+                transition: none;
+            }
+        }
+    }
+}

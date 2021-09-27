@@ -22,3 +22,31 @@
     justify-content: space-between;
     width: 98rem;
 }
+
+@media screen and (max-width: 780px) {
+    .tracker {
+        margin-top: 3rem;
+        display: flex;
+        align-items: center;
+        
+
+        h1 {
+            font-size: 2.4rem;
+            width: 20.1rem;
+        }
+
+        .counter {
+            margin-left: 6rem;
+            font-size: 3.6rem;
+        }
+    }
+
+    .tracker-group {
+        width: 33rem;
+        margin-left: 2rem;
+        margin-top: 5rem;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+}
