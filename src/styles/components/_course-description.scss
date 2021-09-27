@@ -17,11 +17,19 @@
     }
 
     .delete {
+        margin-left: 1rem;
         cursor: pointer;
         width: 2.3rem;
         height: 2.3rem;
         background: url("../images/delete.svg") no-repeat center;
         background-size: cover;
+        transition: all .3s ease-in-out;
+
+        &:hover {
+            width: 2.5rem;
+            height: 2.5rem;
+            transition: all .3s cubic-bezier(0.2, 0.6, 0.2, 1);
+        }
     }
 }
 

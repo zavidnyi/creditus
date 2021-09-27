@@ -57,7 +57,7 @@ const CourseSelection = ({requiredCourses, electiveGroups, userData}) => {
         <>
             <CourseSearch courses={listOfAllCourses()} addCourse={addCourse}/>
             <CourseList courses={userData.courses} deleteCourse={deleteCourse}/>
-            <Footer/>
+            <Footer data={userData}/>
         </>
     );
 }
