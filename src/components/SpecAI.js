@@ -33,7 +33,7 @@ const SpecAI = () => {
 
     return (
         <>
-            <Header specName="Artificial Intellifence"/>
+            <Header specName="Artificial Intelligence"/>
             {
                 isLoading ?
                 <p>Loading</p> :

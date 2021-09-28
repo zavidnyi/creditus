@@ -6,7 +6,7 @@ const MainPage = () => {
         <div id="main-page">
             <h1>Creditus</h1>
             <div id="specialisation-list">
-                <Link to="spec-ai">Artificial Intellifence</Link>
+                <Link to="spec-ai">Artificial Intelligence</Link>
                 <Link to="spec-db-web">Databases and Web</Link>
                 <Link to="spec-gcs">General Computer Science</Link>
             </div>
